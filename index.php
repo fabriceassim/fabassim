@@ -1,4 +1,4 @@
 <?php
 
 echo "test";
-take 6
+echo "take 6";
