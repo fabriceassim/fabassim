@@ -1,4 +1,4 @@
 <?php
 
 echo "test";
-jons_encode("ok");
+take 6
