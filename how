@@ -1,0 +1,41 @@
+[33mcommit 37c9c7f966e045581d4cf8bca4ec8289f797d204[m[33m ([m[1;36mHEAD -> [m[1;32mtake6[m[33m, [m[1;31morigin/take6[m[33m)[m
+Author: Fabrice <fabriceassim@gmail.com>
+Date:   Thu Jan 21 17:53:17 2021 +0300
+
+    2 ne pas changer
+
+[33mcommit ceb8560df23d075be3760c3e8f1a7818eb82bedb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feat[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeat[m[33m)[m
+Author: Fabrice <fabriceassim@gmail.com>
+Date:   Thu Jan 21 17:45:40 2021 +0300
+
+    end
+
+[33mcommit 6119c103f8a0cbc02fc1d63c5df3823b6b691b63[m
+Author: Fabrice <fabriceassim@gmail.com>
+Date:   Thu Jan 21 17:25:04 2021 +0300
+
+    display string
+
+[33mcommit 2d1a8254a6be65586407cfc324204fc7b46b2485[m
+Author: Fabrice <fabriceassim@gmail.com>
+Date:   Thu Jan 21 17:22:06 2021 +0300
+
+    erreur de chaine
+
+[33mcommit d9fb5dacfd3e43fb53d12d7a23699c7731499ad4[m[33m ([m[1;31morigin/new_branch_to_merge_later[m[33m, [m[1;32mnew_branch_to_merge_later[m[33m, [m[1;32mcorrectif[m[33m)[m
+Author: Fabrice <fabriceassim@gmail.com>
+Date:   Thu Jan 21 17:02:30 2021 +0300
+
+    json encode
+
+[33mcommit 7854ac5b5727a46cb41ff1e661b259da1f0061b3[m
+Author: Fabrice <fabriceassim@gmail.com>
+Date:   Thu Jan 21 16:57:28 2021 +0300
+
+    ajout index
+
+[33mcommit 8d93b9f48a386e31c1000b5ed9340c7a34749510[m
+Author: fabriceassim <74233281+fabriceassim@users.noreply.github.com>
+Date:   Tue Nov 10 10:47:41 2020 +0300
+
+    Initial commit
