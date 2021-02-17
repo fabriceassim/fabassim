@@ -8,15 +8,25 @@ class Main
 	private $group;
 	private $moi;
 	private $toi;
-	public function __construct($rooms, $displays, $org,$group,$moi, $toi){
+	private $femme;
+	public function __construct($rooms, $displays, $org,$group,$moi, $toi, $femme){
 		$this->rooms = $rooms;
 		$this->displays = $displays;
 		$this->org = $org;
 		$this->group = $group;
 		$this->moi = $moi;
 		$this->toi = $toi;
+		$this->femme = $femme;
 	}
 
+	public function setFemme($femme)
+	{
+		$this->femme = $femme;
+	}
+	public function getFemme()
+	{
+		return $this->femme;
+	}
 	public function setToi($toi)
 	{
 		$this->toi = $toi;

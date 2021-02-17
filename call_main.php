@@ -1,6 +1,11 @@
 <?php
 class CallMain
 {
+	private $femme;
+	public function __construct(Femme $femme)
+	{
+		$this->femme = $femme;
+	}
 	public function init()
 	{
 		return 'init';
