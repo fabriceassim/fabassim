@@ -26,4 +26,9 @@ class Main
 	{
 		return $this->toi = $moi;
 	}
+
+	public function run()
+	{
+		
+	}
 }
