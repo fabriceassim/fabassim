@@ -31,4 +31,9 @@ class Main
 	{
 		return 'main_class';
 	}
+
+	public function ok()
+	{
+		return 'ok';
+	}
 }
