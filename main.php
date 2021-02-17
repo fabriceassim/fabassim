@@ -16,4 +16,9 @@ class Main
 		$this->moi = $moi;
 		$this->toi = $toi;
 	}
+
+	public function setToi($toi)
+	{
+		$this->toi = $toi;
+	}
 }
