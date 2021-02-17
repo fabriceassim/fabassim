@@ -41,4 +41,8 @@ class Main
 	{
 		return next();
 	}
+
+	public function last(){
+		return 'last_';
+	}
 }

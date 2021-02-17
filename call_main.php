@@ -9,4 +9,9 @@ class CallMain
 	public function next(){
 		return next();
 	}
+
+	public function finished()
+	{
+		return 'finished';
+	}
 }
