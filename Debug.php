@@ -9,7 +9,6 @@ class Debug
 
 	public function notYet()
 	{
-		echo 'Stop';
 		return 'notyet';
 	}
 }
