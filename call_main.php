@@ -19,4 +19,9 @@ class CallMain
 	{
 		return 'finished';
 	}
+
+	public function debug()
+	{
+		return debug::ouput();
+	}
 }
