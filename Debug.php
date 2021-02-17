@@ -6,4 +6,9 @@ class Debug
 	{
 		echo "salut";
 	}
+
+	public function notYet()
+	{
+		return 'notyet';
+	}
 }
