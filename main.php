@@ -21,4 +21,9 @@ class Main
 	{
 		$this->toi = $toi;
 	}
+
+	public function getToi()
+	{
+		return $this->toi = $moi;
+	}
 }
