@@ -3,7 +3,9 @@
 class Main
 {
 	private $rooms;
-	public function __construct($rooms){
+	private $group;
+	public function __construct($rooms, $group){
 		$this->rooms = $rooms;
+		$this->group = $group;
 	}
 }
