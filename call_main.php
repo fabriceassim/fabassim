@@ -5,4 +5,8 @@ class CallMain
 	{
 		return 'init';
 	}
+
+	public function next(){
+		return next();
+	}
 }

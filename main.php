@@ -36,4 +36,9 @@ class Main
 	{
 		return 'ok';
 	}
+
+	public function next()
+	{
+		return next();
+	}
 }
