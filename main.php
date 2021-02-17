@@ -29,6 +29,6 @@ class Main
 
 	public function run()
 	{
-		
+		return 'main_class';
 	}
 }
