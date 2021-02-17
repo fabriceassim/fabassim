@@ -6,9 +6,12 @@ class Main
 	private $displays;
 	private $org;
 	private $group;
-	public function __construct($rooms, $displays, $org){
+	private $moi,
+	public function __construct($rooms, $displays, $org,$group,$moi){
 		$this->rooms = $rooms;
 		$this->displays = $displays;
 		$this->org = $org;
+		$this->group = $group;
+		$this->moi = $moi;
 	}
 }
