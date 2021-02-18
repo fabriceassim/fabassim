@@ -4,7 +4,7 @@ class Debug
 {
 	public function __construct()
 	{
-		return true;
+		return false;
 	}
 
 }
