@@ -6,5 +6,7 @@ class Debug
 	{
 		return false;
 	}
-
+	public function changes(){
+		return 'changes';
+	}
 }
