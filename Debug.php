@@ -2,9 +2,18 @@
 
 class Debug
 {
-	public function __construct()
+	private $add;
+	public function __construct($add)
 	{
+		$this->add = $add;
 		return false;
 	}
 
+	public function setAdd($value){
+		$this->value = $value;
+	}
+
+	public function getAdd(){
+		return $this->value;
+	}
 }
