@@ -14,6 +14,7 @@ class Debug
 	}
 
 	public function getAdd(){
+		echo 'yes';
 		return $this->value;
 	}
 }
