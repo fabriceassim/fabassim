@@ -9,7 +9,8 @@ class Main
 	private $moi;
 	private $toi;
 	private $femme;
-	public function __construct($rooms, $displays, $org,$group,$moi, $toi, $femme){
+	private $homme;
+	public function __construct($rooms, $displays, $org,$group,$moi, $toi, $femme, $homme){
 		$this->rooms = $rooms;
 		$this->displays = $displays;
 		$this->org = $org;
@@ -17,6 +18,7 @@ class Main
 		$this->moi = $moi;
 		$this->toi = $toi;
 		$this->femme = $femme;
+		$this->homme = $homme;
 	}
 
 	public function setFemme($femme)
