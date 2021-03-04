@@ -24,6 +24,7 @@ class Debug
 		return 'changes not changes';
 	}
 
+
 	public function test(){
 		return 'test';
 	}
