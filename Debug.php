@@ -14,12 +14,10 @@ class Debug
 		$this->value = $value;
 	}
 
-	public function getAdd(){
-		echo 'yes';
+	public function getAdd(){		
 		return $this->value;
 
 	public function changes(){
-		return 'changes';
-
+		return 'changes not changes';
 	}
 }
