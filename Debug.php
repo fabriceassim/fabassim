@@ -9,6 +9,7 @@ class Debug
 		return false;
 	}
 
+
 	public function setAdd($value){
 		$this->value = $value;
 	}
@@ -16,5 +17,9 @@ class Debug
 	public function getAdd(){
 		echo 'yes';
 		return $this->value;
+
+	public function changes(){
+		return 'changes';
+
 	}
 }
