@@ -8,8 +8,6 @@ class Debug
 		$this->add = $add;
 		return false;
 	}
-
-
 	public function setAdd($value){
 		$this->value = $value;
 	}
@@ -21,6 +19,4 @@ class Debug
 		$valid = true;
 		return 'changes not changes';
 	}
-
-
 }
