@@ -29,6 +29,14 @@ class Main
 	{
 		return $this->femme;
 	}
+	public function setHomme($homme)
+	{
+		$this->homme = $homme;
+	}
+	public function getHomme()
+	{
+		return $this->homme;
+	}
 	public function setToi($toi)
 	{
 		$this->toi = $toi;
