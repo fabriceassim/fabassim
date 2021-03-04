@@ -18,6 +18,9 @@ class Debug
 		return $this->value;
 
 	public function changes(){
+		$valid = true;
 		return 'changes not changes';
 	}
+
+
 }
