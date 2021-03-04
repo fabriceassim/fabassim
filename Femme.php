@@ -13,4 +13,8 @@ class Femme
 	public function set($femme){
 		$this->femme = $femme;
 	}
+
+	public function catch(){
+		return 'catch';
+	}
 }
