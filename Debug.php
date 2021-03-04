@@ -4,6 +4,8 @@ class Debug
 {
 	private $add;
 	private $sad;
+	private $display;
+
 	public function __construct($add)
 	{
 		$this->add = $add;
