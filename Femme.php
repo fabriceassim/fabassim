@@ -15,6 +15,6 @@ class Femme
 	}
 
 	public function catch(){
-		return 'catch';
+		return 'catch and not catch';
 	}
 }
