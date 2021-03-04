@@ -9,4 +9,6 @@ class Debug
 	public function changes(){
 		return 'changes';
 	}
+	public function ok(){
+	}
 }
