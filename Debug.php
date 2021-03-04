@@ -18,7 +18,7 @@ class Debug
 		return $this->value;
 
 	public function changes(){
-		return 'changes';
+		return 'changes not changes';
 
 	}
 	public function ok(){
