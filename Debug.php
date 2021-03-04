@@ -23,7 +23,14 @@ class Debug
 		$valid = true;
 		return 'changes not changes';
 	}
+
 	public function test(){
 		return 'test';
 	}
+
+		
+		public function getDisplay(){
+			return $this->display;
+		}
+
 }
