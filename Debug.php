@@ -27,10 +27,10 @@ class Debug
 	public function test(){
 		return 'test';
 	}
-
-		
 		public function getDisplay(){
 			return $this->display;
 		}
-
+	public function init(){
+		echo 'init';
+	}
 }
