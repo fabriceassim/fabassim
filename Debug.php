@@ -3,6 +3,7 @@
 class Debug
 {
 	private $add;
+	private $sad;
 	public function __construct($add)
 	{
 		$this->add = $add;
