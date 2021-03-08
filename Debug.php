@@ -17,7 +17,9 @@ class Debug
 	public function setAdd($value){
 		$this->value = $value;
 	}
-
+	public function setInit($init){
+		$this->init = $init;
+	}
 	public function getAdd(){		
 		return $this->value;
 
