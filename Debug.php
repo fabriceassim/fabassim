@@ -28,6 +28,7 @@ class Debug
 		return $this->display;
 	}
 	public function init(){
-		echo 'init';
+		if( $a > 0) return true;
+		return false;
 	}
 }
