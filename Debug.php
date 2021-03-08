@@ -5,6 +5,7 @@ class Debug
 	private $add;
 	private $sad;
 	private $display;
+	private $init;
 
 	public function __construct($add, $display)
 	{
@@ -28,6 +29,7 @@ class Debug
 		return $this->display;
 	}
 	public function init(){
+		if($this->init == true) return false;
 		if( $a > 0) return true;
 		else return false;
 		return false;
