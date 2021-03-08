@@ -7,8 +7,9 @@ class Debug
 	private $display;
 	private $init;
 
-	public function __construct($add, $display)
-	{
+	public function __construct($add, $display, $init)
+	{	
+		$this->init = $init;
 		$this->display = $display;
 		$this->add = $add;
 		return false;
