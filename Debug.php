@@ -11,7 +11,7 @@ class Debug
 	{
 		$this->display = $display;
 		$this->add = $add;
-		return false;
+		
 	}
 	public function setAdd($value){
 		$this->value = $value;
