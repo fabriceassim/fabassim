@@ -29,6 +29,7 @@ class Debug
 	}
 	public function init(){
 		if( $a > 0) return true;
+		else return false;
 		return false;
 	}
 }
