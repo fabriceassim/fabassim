@@ -16,6 +16,8 @@ class Apply
 
 	public function dump(false)
 	{
+		$chances = 0;
+		if(!chances) return false;
 		return true;
 	}
 }
