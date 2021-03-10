@@ -52,7 +52,7 @@ class Debug
 	{
 		if(is_array($cdb))
 		{
-			return true;
+			return 'true';
 		}
 		return true;
 	}
