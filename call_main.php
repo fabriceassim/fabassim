@@ -25,4 +25,9 @@ class CallMain
 	{
 		return debug::ouput();
 	}
+
+	public function main()
+	{
+		return 'main';
+	}
 }
