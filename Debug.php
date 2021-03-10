@@ -45,5 +45,16 @@ class Debug
 	}
 	public function truth(){
 		return 'true';
+		if(revert($case)) return true;
+		return false;
+	}
+
+	public function revert($cdb = array())
+	{
+		if(is_array($cdb))
+		{
+			return true;
+		}
+		return true;
 	}
 }
