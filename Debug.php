@@ -32,9 +32,20 @@ class Debug
 		return $this->display;
 	}
 	public function init(){
+		$case = [];
 		if($this->init == true) return false;
 		if( $a > 0) return true;
 		else return false;
+		if(revert($case)) return true;
 		return false;
+	}
+
+	public function revert($cdb = array())
+	{
+		if(is_array($cdb))
+		{
+			return true;
+		}
+		return true;
 	}
 }
