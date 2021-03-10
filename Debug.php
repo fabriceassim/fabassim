@@ -44,6 +44,6 @@ class Debug
 	  else return false;
 	}
 		public function truth(){
-			return true;
+			return 'true';
 		}
 }
