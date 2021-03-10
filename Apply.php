@@ -16,6 +16,6 @@ class Apply
 
 	public function dump(false)
 	{
-		return true;
+		return false;
 	}
 }
