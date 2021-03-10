@@ -43,4 +43,7 @@ class Debug
 	  if($v === 0) return true;
 	  else return false;
 	}
+		public function truth(){
+			return true;
+		}
 }
