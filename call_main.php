@@ -28,7 +28,9 @@ class CallMain
 
 	public function main()
 	{
-		$a = 4;
+
+		$a = false;
+
 		return 'main';
 	}
 }
