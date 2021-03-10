@@ -35,6 +35,12 @@ class Debug
 		if($this->init == true) return false;
 		if( $a > 0) return true;
 		else return false;
+		if($this->normalize()) return true;
 		return false;
+	}
+	public function normalize(){
+	  $v = 0;
+	  if($v === 0) return true;
+	  else return false;
 	}
 }
